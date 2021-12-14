@@ -1,4 +1,31 @@
-p {
-	color: hsl(0, 0%, 100%);
-	background-color: hsl(0, 0%, 10%);
+html {
+	font-size: 1.25rem;
+}
+
+body {
+	background-color: hsl(0deg 0% 10%);
+	color: hsl(120deg 30% 75%);
+	line-height: 1.6;
+	text-align: justify;
+}
+
+img {
+	height: 400px;
+	width: 100%;
+	display: block;
+	object-fit: cover;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3rem;
+	background-color: hsl(200deg 20% 20%);
+	color: hsl(26deg 94% 52%);
+}
+
+#content {
+	width: 90%;
+	max-width: 1280px;
+
+	margin: 0 auto;
 }
