@@ -14,11 +14,13 @@ module.exports = {
 	entry: {
 		index: "./src/js/index.js",
 	},
+
 	output: {
 		filename: "[name].bundle.js",
 		path: path.resolve(__dirname, "dist"),
 		clean: true,
 	},
+
 	plugins: [
 		new HtmlWebpackPlugin({
 			template: "./src/pages/index.html",
@@ -26,4 +28,13 @@ module.exports = {
 			chunks: ["index"],
 		}),
 	],
+
+	module: {
+		rules: [
+			{
+				test: /\.css$/i,
+				use: ["style-loader", "css-loader"],
+			},
+		],
+	},
 };
