@@ -71,6 +71,8 @@ h1 {
 
 footer {
 	margin-top: auto;
+	background-color: hsl(0deg 0% 15%);
+	color: hsl(20deg 70% 50%);
 }
 
 .flex-container {

@@ -1,5 +1,8 @@
 import "../pages/style.css";
 import Header from "./header";
+import Home from "./home";
 
 const content = document.querySelector("#content");
+
 content.insertAdjacentElement("beforebegin", Header());
+content.appendChild(Home());
