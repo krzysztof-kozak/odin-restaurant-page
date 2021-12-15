@@ -10,6 +10,7 @@ function Header() {
 		const anchorElement = document.createElement("a");
 
 		anchorElement.setAttribute("href", "#");
+		anchorElement.classList.add("nav-link");
 		anchorElement.textContent = link;
 
 		liElement.appendChild(anchorElement);
