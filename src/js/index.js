@@ -1,10 +1,11 @@
 import "../pages/style.css";
 import Header from "./header";
-import Home from "./home";
 import Footer from "./footer";
+import Home from "./home";
+import Menu from "./menu";
 
 const content = document.querySelector("#content");
 
 content.insertAdjacentElement("beforebegin", Header());
-content.appendChild(Home());
+content.appendChild(Menu());
 content.insertAdjacentElement("afterend", Footer());

@@ -86,3 +86,29 @@ footer {
 a > img {
 	height: unset;
 }
+
+.gallery__title {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.gallery-grid {
+	display: grid;
+	gap: 0 2em;
+
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.gallery__img {
+	height: 150px;
+	width: 100%;
+	border: 3px solid hsl(20deg 70% 50%);
+	border-radius: 0.5em;
+	object-fit: cover;
+	object-position: 50% 80%;
+	box-shadow: 0 0 2px 0px black;
+}
+
+.gallery__text {
+	text-align: center;
+}
