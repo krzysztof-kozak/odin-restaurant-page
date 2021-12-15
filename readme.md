@@ -1,6 +1,6 @@
 # odin-restaurant-page (webpack)
 
-This is the second project in the [full stack JavaScript](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page) path of [The Odin Project](https://www.theodinproject.com/).
+This is the third project in the [full stack JavaScript](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page) path of [The Odin Project](https://www.theodinproject.com/).
 
 The main goal of this project was to practice using **webpack** and to do some dom manipulation.
 
